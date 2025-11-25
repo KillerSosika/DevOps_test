@@ -20,7 +20,6 @@
 * Docker, Minikube, Terraform.
 
 ### 2. Запуск
-```powershell
 # Розгорнути все (Infa + App + DB)
 .\manage.ps1 deploy
 3. Перевірка (Verification)

@@ -21,8 +21,11 @@
 
 ### 2. Запуск
 # Розгорнути все (Infa + App + DB)
+```powershell
 .\manage.ps1 deploy
-3. Перевірка (Verification)
+```powershell
+
+#3. Перевірка (Verification)
 Оскільки локально у нас немає справжнього DNS, я використовую емуляцію заголовка Host. Це перевіряє весь ланцюжок: Ingress -> Service -> Pod -> DB.
 
 # Перевірити статус API та підключення до БД
